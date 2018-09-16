@@ -1,0 +1,109 @@
+/**
+*Admin-style.css
+* @author steemtemplates
+*/
+body.wp-admin {
+background-color:#f1f1f1;
+color: #444 !important;
+font-family: "Open Sans",sans-serif !important;
+line-height: 1.4em !important;
+min-width: 600px !important;
+}
+.colorpickercontainer {
+margin-top: 10px;
+}
+.colorpickercontainer label {
+margin: 0;
+vertical-align: top;
+}
+.widgetcheckbox {
+margin: 1px 5px 0 5px;
+}
+.widgetlabel {
+display: inline;
+margin: 0;
+}
+.menupagecontainer {
+height: 150px;
+overflow: auto;
+border: 1px solid #dfdfdf;
+}
+.tt_link {
+color: #0088cc !important;
+}
+.tt_hide {
+display:none;
+}
+#tabseo .ui-widget-header, #tabbackup .ui-widget-header {
+border:0;
+background: none;
+}
+#seo .ui-tabs .ui-tabs-nav li a, #backuppage .ui-tabs .ui-tabs-nav li a {
+padding:0.2em 1em !important;
+}
+.menupageelement {
+padding: 5px;
+}
+.check-all {
+margin: 5px 0 0 5px;
+}
+.uncheck-all {
+ margin: 5px 0 0 5px;
+}
+.width {
+width: 100%;
+}
+#admin_container .icon-option {
+float: left;
+height: 32px;
+width: 32px;
+background: url(../images/icon_option.png) no-repeat;
+margin:5px 5px;
+}
+.tt-editor-wrapper ul#tt_editor_tabs li.active a {
+background: #f5f5f5 none repeat scroll 0 0;
+color: #555;
+}
+.nav-tabs > li > a {
+background: #eaeaea none repeat scroll 0 0;
+border: 1px solid #ddd;
+border-radius: 0;
+color: #666;
+line-height: 1.42;
+margin-right: 2px;
+}
+.tt-editor-wrapper ul#tt_editor_tabs li.active a {
+background: #f1f1f1 none repeat scroll 0 0;
+color: #555;
+}
+.nav-tabs > li > a:hover {
+border-color: #d1d1d1;
+}
+.nav-tabs > li > a:hover,.nav-tabs > li > a:focus,.nav-tabs > li > a:active {
+box-shadow:none;
+}
+body#tinymce .ge-tools-drawer {
+display: none;
+}
+#tt_editor_tab2 #myGrid .html_content p, #tt_editor_tab2 #myGrid .html_content h1, #tt_editor_tab2 #myGrid .html_content h2, #tt_editor_tab2 #myGrid .html_content h3, #tt_editor_tab2 #myGrid .html_content h4, #tt_editor_tab2 #myGrid .html_content h5, #tt_editor_tab2 #myGrid .html_content h6
+{
+font-family:Arial;
+}#tt_editor_tab2 #myGrid .html_content p
+{
+font-size:14px;
+}#amp-page-builder .modal-header::before,#amp-page-builder .modal-header::after
+{
+display:none;
+}#amp-page-builder .modal-body
+{
+padding:0;
+position:absolute;
+}#amp-page-builder .modal-header
+{
+padding:0 0 0 20px;
+position:relative;
+}body#tinymce 
+{
+background-color:#ffffff;background-image: none;margin: 20px 40px;
+}
+
